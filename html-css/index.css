@@ -1,0 +1,126 @@
+html, body {
+  margin : 0;
+  padding : 0;
+}
+
+nav {
+  font-family: 'Bungee', cursive;
+  background-color: #4056A1;;
+  height: 90px;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+}
+
+a {
+  color: white;
+}
+
+#footer {
+  background-color: #4056A1;;
+  height: 45px;
+  bottom: 0;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#footer h5 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav img {
+  padding-top: 28px;
+  margin-left: 20px;
+  height: 5%;
+  width: 5%;
+}
+
+.links {
+  margin-top: 28px;
+  margin-right: 20px;
+}
+.lastlink {
+  margin-left: 15px;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  text-align: center;
+}
+h1 {
+  padding-top: 300px;
+  color: black;
+  margin: auto;
+}
+
+.content {
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+  width: 55%;
+}
+
+.sidebar {
+  width: 15%;
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+  text-align: center;
+}
+
+.content:hover {
+  box-shadow: 5px 10px grey;
+}
+
+.content h3 {
+  text-align: center;
+}
+
+.body {
+  width: 100%;
+  margin: auto;
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  nav {
+    font-family: 'Bungee', cursive;
+    background-color: #4056A1;
+    height: 90px;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    position: relative;
+  }
+
+  .body {
+    margin: auto;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+  }
+  h1 {
+    padding-top: 250px;
+    color: black;
+    margin: auto;
+  }
+}
